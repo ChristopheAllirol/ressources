@@ -1,3 +1,5 @@
+ header("Content-Type: application/javascript");
+
 class Airtable {
   constructor(base, table, key) {
     this.base = base;
